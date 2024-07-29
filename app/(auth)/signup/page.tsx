@@ -111,7 +111,15 @@ export default function SignUp() {
                   />
                 </div>
                 <div className="flex items-center justify-between mt-6">
-                  <div className="mr-1"></div>
+                  {/* <div className="mr-1"></div> */}
+                  <div className="mr-1">
+                    <Link
+                      className="text-sm underline hover:no-underline"
+                      href="/reset-password"
+                    >
+                      Forgot Password?
+                    </Link>
+                  </div>
                   <button
                     disabled={loading}
                     type="submit"
@@ -122,7 +130,7 @@ export default function SignUp() {
                 </div>
               </form>
               {/* Footer */}
-              {/* <div className="pt-5 mt-6 border-t border-gray-100 dark:border-gray-700/60">
+              <div className="pt-5 mt-6 border-t border-gray-100 dark:border-gray-700/60">
                 <div className="text-sm">
                   Have an account?{" "}
                   <Link
@@ -132,7 +140,7 @@ export default function SignUp() {
                     Sign In
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

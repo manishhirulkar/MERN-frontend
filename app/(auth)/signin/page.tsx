@@ -153,7 +153,7 @@ export default function SignIn() {
                     Sign Up
                   </Link>
                 </div>
-                {/* Warning */}
+                {/* Warning
                 <div className="mt-5">
                   <div className="bg-yellow-500/20 text-yellow-700 px-3 py-2 rounded-lg">
                     <svg
@@ -167,7 +167,7 @@ export default function SignIn() {
                       free until March 31st.
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

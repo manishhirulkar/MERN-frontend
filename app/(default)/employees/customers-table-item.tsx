@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Customer } from "./customers-table";
 import Avatar01 from "@/public/images/avatar-01.jpg";

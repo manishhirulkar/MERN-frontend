@@ -88,7 +88,7 @@ export default function EmployeeTable({
             {/* Table body */}
 
             <tbody className="text-sm divide-y divide-gray-100 dark:divide-gray-700/60">
-              {customers &&
+              {Array.isArray(customers) &&
                 customers.map((customer: any) => (
                   <EmployeeTableItem
                     key={customer.id}
